@@ -16,7 +16,7 @@ const context = {
 
 
     // What is the value of `this` when we call ship.fly()?
-    const result = 'REPLACE WITH YOUR RESULT HERE';
+    const result = 'global window object';
     return result;
 
     // Annotation:
@@ -26,9 +26,9 @@ const context = {
   exerciseB() {
     function fn() {
       const value = 2;
-      return this.value;
-    }
-    
+       return this.value;
+  }
+     
     // What is the value of `this` when we call fn()?
     const result = 'REPLACE WITH YOUR RESULT HERE';
     return result;
